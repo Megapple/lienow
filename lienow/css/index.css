@@ -4,6 +4,9 @@ body{
 img{
   width:100%;
 }
+#nav>div#content>ul>li:hover{
+  background-color:red !important;
+}
 .carousel-control-next,
 .carousel-control-prev{
   width:4%;
@@ -31,7 +34,11 @@ div.carousel:hover{
   transform: scale(1.1);
   transition: all 2s linear;
 }
-#details{
+#details,
+#news,
+#abouticon,
+#aboutcontent,
+#realfooter{
   width:80%;
   margin:0 auto;
   border-radius: 20px;
@@ -41,6 +48,9 @@ div.carousel:hover{
   position: fixed;
   top:20%;
   z-index:-2;
+}
+#abouticon>div>div{
+  font-size: 5rem;
 }
 /* @media screen and (max-width:767px){
   #bgpic{

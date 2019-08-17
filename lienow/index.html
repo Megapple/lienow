@@ -6,15 +6,13 @@
   <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
   <link rel="stylesheet" href="./css/bootstrap.css"/>
   <link rel="stylesheet" href="./css/index.css">
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/popper.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/jquery-1.11.3.js"></script>
+  <link rel="stylesheet" href="./public/footer_icon/iconfont.css">
   <title></title>
 </head>
 <body>
   <div class="container m-0 p-0 mw-100">
-    <div class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- header -->
+    <div id="nav" class="navbar navbar-expand-md bg-dark navbar-dark">
       <!--最前面不折叠的菜单项-->
       <a href="#" class="navbar-brand "><img src="./public/img/logo.jpg"></a>
       <!--小屏下出现的按钮,折叠区域的激发按钮-->
@@ -24,14 +22,15 @@
       </button>
       <!--折叠的导航-->
       <div id="content" class="collapse navbar-collapse">
-        <ul class="navbar-nav w-100 d-flex justify-content-md-end justify-content-lg-around">
-          <li class="nav-item"><a class="nav-link" href="">关于来闹</a></li>
-          <li class="nav-item"><a class="nav-link" href="">项目简介</a></li>
-          <li class="nav-item"><a class="nav-link" href="">加入来闹</a></li>
-          <li class="nav-item"><a class="nav-link" href="">联系我们</a></li>
+        <ul class="navbar-nav w-100 d-flex  justify-content-md-end justify-content-lg-around">
+          <li class="nav-item"><a class="nav-link text-right" href="#">关于来闹</a></li>
+          <li class="nav-item"><a class="nav-link text-right" href="#">密室精选</a></li>
+          <li class="nav-item"><a class="nav-link text-right" href="#">加入来闹</a></li>
+          <li class="nav-item"><a class="nav-link text-right" href="#">联系我们</a></li>
         </ul>
       </div>
     </div>
+    <!-- carousel -->
     <div id="carousel" class="carousel" data-ride="carousel">
       <!--轮播图-->
       <div class="carousel-inner">
@@ -63,8 +62,50 @@
         <li data-slide-to="3" data-target="#carousel"></li>
       </ul>
     </div>
+    <!-- content -->
     <div id="body">
-      <div class="row my-sm-5">
+      <div id="aboutTitle" class="row mt-sm-5">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="h2 text-secondary border-bottom border-secondary pb-2">关于来闹</div>
+        </div>
+      </div>
+      <div id="aboutcontent" class="row my-sm-4  text-white text-center">
+        <div class="col-12 h5 m-0 font-weight-bold">
+          来
+        </div>
+        <div class="col-12 my-3">
+          来,复合型游戏体验空间,年轻人的游乐场!
+        </div>
+        <img src="./public/img/about3.jpg" class="rounded">
+        <div class="col-12 h5 m-0 font-weight-bold mt-3">
+          闹
+        </div>
+        <div class="col-12 my-3">
+          闹,没有规矩,没有界限,追求自由和释放才是年轻人的腔调!
+        </div>
+        <img src="./public/img/about6.jpg" class="rounded">
+        <div id="time" class="col-12 my-3 text-danger font-weight-bold h2"></div>
+        <img src="./public/img/about5.jpg" class="rounded">
+      </div>
+      <div id="abouticon" class="row text-center text-white my-5">
+        <div class="col-3">
+          <div class="iconfont icon-wanwu"></div>
+          <span class="font-weight-bold">狼人</span>
+        </div>
+        <div class="col-3">
+          <div class="iconfont icon-zhuoyou"></div>
+          <span class="font-weight-bold">桌游</span>
+        </div>
+        <div class="col-3">
+          <div class="iconfont icon-shu"></div>
+          <span class="font-weight-bold">剧本</span>
+        </div>
+        <div class="col-3">
+          <div class="iconfont icon-wanyouxi"></div>
+          <span class="font-weight-bold">电竞</span>
+        </div>
+      </div>
+      <div id="detailsTitle" class="row my-sm-5">
         <div class="col-12 d-flex justify-content-center">
           <div class="h2 text-secondary border-bottom border-secondary pb-2">精选密室</div>
         </div>
@@ -95,15 +136,86 @@
           </div>
         </div>
       </div>
-      <div class="text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum earum consequatur dolorem pariatur quam   neque praesentium veritatis! Iste at possimus illum mollitia, blanditiis optio quae consequatur hic enim  rem dolor error quo praesentium pariatur necessitatibus suscipit fugiat libero saepe quas accusamus.   Omnis necessitatibus sequi recusandae nihil nisi suscipit quasi iure? Explicabo quasi ullam laboriosam  eligendi? Esse impedit deleniti odio perferendis dignissimos illo mollitia perspiciatis libero possimus  earum numquam iure voluptatem, assumenda deserunt quod ipsum aut voluptas incidunt repudiandae corporis.   Voluptate nesciunt iste dignissimos asperiores? Inventore id error quaerat consequatur dolore impedit   magni delectus debitis. Impedit consequatur eum delectus provident sed autem sapiente ex repellat   corporis dolorum iusto asperiores ut, pariatur ab tenetur laborum distinctio laboriosam? Nostrum,   exercitationem? Tempore quos exercitationem saepe eligendi quis qui possimus earum perspiciatis delectus  in, architecto reiciendis nesciunt molestiae vitae, tempora soluta quo at cum distinctio molestias   temporibus quasi nostrum sed. Qui dolores, voluptatem rerum vitae repudiandae, excepturi error veritatis  eligendi repellat delectus non assumenda, fugit veniam! Quasi asperiores officiis cum ea fuga, ipsum nemo  at voluptatum quas! Eaque cupiditate odio dignissimos error cum delectus nisi nulla ipsam dolorum itaque   praesentium consequuntur, dolorem repudiandae adipisci suscipit iusto aperiam quas maiores assumenda.   Eaque facere aspernatur temporibus!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sit quam vel minus, maxime placeat voluptates totam pariatur velit tenetur sed in eaque nihil magni natus. Atque doloremque nesciunt cupiditate vero quo. Deserunt illo quam fugit dolorem inventore molestiae eius, error cum voluptate cumque dignissimos, ullam officia nesciunt facere tempore ducimus quos repellendus corporis debitis in quo perferendis culpa sed alias! Beatae quis voluptatem cupiditate tempora tempore saepe minima nobis praesentium sequi atque harum totam quo explicabo nulla eos molestias aliquam, voluptas facere autem et repellendus incidunt? Officiis quo ex, rerum ab, et veritatis consequuntur dicta quae quisquam facere necessitatibus placeat molestias tempora fuga iste vel? Porro omnis, vitae laboriosam aliquid, veniam sunt quibusdam saepe impedit fuga rerum nihil ad nisi veritatis officia? Officia ullam, enim, in fugiat possimus voluptatibus inventore architecto nam porro iusto doloremque amet itaque quasi laudantium veritatis expedita, nemo sed. Veniam beatae, porro aspernatur aut nobis omnis facilis laborum temporibus repudiandae quam expedita totam! Consequuntur corporis quaerat accusantium et voluptas architecto molestias cum, omnis ratione, voluptatibus officia animi facere veniam sequi assumenda ea. Tenetur similique eos consequatur, commodi corporis dolores nobis cumque, reprehenderit quis et officia totam repellat excepturi, repellendus autem natus. Voluptatum animi ea reprehenderit. Ipsam, deserunt! Amet ab sed perferendis, itaque assumenda rerum reprehenderit at? Eius tempora reiciendis quidem fugit, omnis, aliquid repudiandae, sunt vel esse praesentium alias ut ipsum! Eaque ducimus perferendis amet iste cupiditate recusandae atque voluptatibus pariatur quaerat adipisci, aperiam, libero assumenda quisquam nam commodi, explicabo labore? Quo commodi, vero repellat ut velit architecto minima modi dolores quasi esse numquam enim, amet temporibus sunt facilis perferendis veniam? Iste voluptatibus consequuntur ad aperiam quis quidem in, beatae saepe unde perferendis labore culpa dolore voluptas quisquam dolor soluta quibusdam eveniet aliquid! Alias quam, nam totam illo soluta dicta voluptatem temporibus repellendus magnam praesentium reprehenderit ab dolores omnis laborum tempora eaque voluptate ex id ipsam pariatur doloribus quis obcaecati ipsa. Magnam minima quidem hic, quae adipisci enim, illo modi ex recusandae voluptatibus nobis. Veniam, repellendus ratione odit architecto vel fugit quam suscipit error maiores velit ducimus eos, asperiores perspiciatis aut, amet fugiat laboriosam iure explicabo harum ea ab quas porro laudantium minima? Iste impedit molestias corporis adipisci, numquam consequatur iure ex placeat nostrum incidunt, architecto laboriosam accusantium tempora molestiae labore! A minus illum accusamus consequatur molestiae repudiandae sequi veritatis? Temporibus odio nam dolorum, molestiae voluptatibus exercitationem expedita culpa quidem porro. Sit iusto quasi ut cupiditate quis, aliquid omnis, commodi quas voluptates illum vel laboriosam magnam inventore? Quidem reprehenderit quis rerum tempore, nisi minus accusantium velit sint soluta ratione recusandae optio doloremque sapiente explicabo dolores qui ut culpa aliquid ipsum molestias corrupti debitis illum, illo voluptates? Distinctio voluptates, doloremque praesentium porro similique obcaecati amet assumenda modi adipisci repellendus corrupti et nisi temporibus nostrum minima! Atque, magnam! Ipsum in dolore, corrupti rerum labore distinctio magni odit hic illum, culpa sapiente vero odio? Dolorem quam saepe temporibus? Accusantium dolore ipsa, magni totam deleniti ducimus beatae ea fugit aliquam voluptate vitae mollitia, aliquid, a dolor porro necessitatibus pariatur!
+      <div id="newsTitle" class="row my-sm-5">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="h2 text-secondary border-bottom border-secondary pb-2">来闹热闻</div>
+        </div>
+      </div>
+      <div id="news" class="row">
+        <div class="col-md-12 col-lg-6 p-0">
+          <img src="./public/img/bg2.jpg" class="w-100 rounded" >
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <ul class="list-group list-unstyled">
+            <li class="bg-dark list-group-item text-white border-0 p-0 mt-1">
+              <div class="row">
+                <div class="col-3 bg-dark text-sm-left p-sm-0 px-lg-4">
+                  <div class="h5 m-0">2019</div>
+                  <span>08-17</span>
+                </div>
+                <div class="col-9 bg-dark">
+                  <div class="h5 m-0">来闹创始人卫老师做客直播间分享创业经历</div>
+                  <span>
+                    真是一段血泪史啊Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolore!
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="bg-dark list-group-item text-white border-0 p-0 mt-1">
+                <div class="row">
+                    <div class="col-3 bg-dark text-center text-sm-left p-sm-0 px-lg-4">
+                      <div class="h5 m-0">2019</div>
+                      <span>08-17</span>
+                    </div>
+                    <div class="col-9 bg-dark ">
+                      <div class="h5 m-0">来闹创始人卫老师做客直播间分享创业经历</div>
+                      <span>
+                        真是一段血泪史啊Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolore!
+                      </span>
+                    </div>
+                  </div>
+            </li>
+            <li class="bg-dark list-group-item text-white border-0 p-0">
+              <div class="row">
+                <div class="col-3 bg-dark text-center text-sm-left p-sm-0 px-lg-4">
+                  <div class="h5 m-0">2019</div>
+                  <span>08-17</span>
+                </div>
+                <div class="col-9 bg-dark">
+                  <div class="h5 m-0">来闹创始人卫老师做客直播间分享创业经历</div>
+                  <span>
+                    真是一段血泪史啊Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolore!
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div id="bgpic">
+    <!-- <div id="bgpic">
         <img src="./public/img/bg1.jpg">
+    </div> -->
+    <!-- footer -->
+    <div id="realfooter" class="row mt-5">
+      <div class="col-8 p-0">
+        <img src="./public/img/footerIcon.jpg" alt="">
+      </div>
+      <div class="col-2 p-0">
+        <img src="./public/img/teacherWei1.jpg">
+      </div>
+      <div class="col-2 p-0">
+        <img src="./public/img/me1.jpg">
+      </div>
+    </div>
+    <div id="author"  class="text-center text-white">
+      <span>©2019西安来闹lienow实景娱乐 @author:Megapple</span>
     </div>
   </div>
 </body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery-1.11.3.js"></script>
 <script src="./js/index.js"></script>
 </html>
