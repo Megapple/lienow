@@ -5,7 +5,7 @@ img{
   width:100%;
 }
 #nav>div#content>ul>li:hover{
-  background-color:red !important;
+  background-color:#dc3545 !important;
 }
 .carousel-control-next,
 .carousel-control-prev{
@@ -51,6 +51,10 @@ div.carousel:hover{
 }
 #abouticon>div>div{
   font-size: 5rem;
+}
+#abouticon>div:hover{
+  color: #dc3545 !important;
+  cursor:pointer;
 }
 /* @media screen and (max-width:767px){
   #bgpic{
